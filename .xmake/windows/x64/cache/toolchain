@@ -1,0 +1,149 @@
+{
+    go_arch_x64_plat_windows = {
+        __global = true,
+        plat = "windows",
+        __checked = true,
+        arch = "x64"
+    },
+    swift_arch_x64_plat_windows = {
+        __global = true,
+        plat = "windows",
+        __checked = true,
+        arch = "x64"
+    },
+    gfortran_arch_x64_plat_windows = {
+        __global = true,
+        plat = "windows",
+        __checked = true,
+        arch = "x64"
+    },
+    ["tool_target_qlementine-icons_windows_x64_ar"] = {
+        program = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\link.exe]],
+        toolname = "link",
+        toolchain_info = {
+            arch = "x64",
+            plat = "windows",
+            name = "msvc",
+            cachekey = "msvc_arch_x64_plat_windows"
+        }
+    },
+    rust_arch_x64_plat_windows = {
+        __global = true,
+        plat = "windows",
+        __checked = true,
+        arch = "x64"
+    },
+    zig_arch_x64_plat_windows = {
+        plat = "windows",
+        arch = "x64",
+        __global = true
+    },
+    clang_arch_x64_plat_windows = {
+        plat = "windows",
+        arch = "x64",
+        __global = true
+    },
+    nasm_arch_x64_plat_windows = {
+        __global = true,
+        plat = "windows",
+        __checked = true,
+        arch = "x64"
+    },
+    fpc_arch_x64_plat_windows = {
+        __global = true,
+        plat = "windows",
+        __checked = true,
+        arch = "x64"
+    },
+    cuda_arch_x64_plat_windows = {
+        __global = true,
+        plat = "windows",
+        __checked = true,
+        arch = "x64"
+    },
+    msvc_arch_x64_plat_windows = {
+        vs_sdkver = "10.0.26100.0",
+        vcvars = {
+            VSCMD_VER = "18.0",
+            WindowsSdkVerBinPath = [[C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\]],
+            PATH = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64\;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\18\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\Extensions\Microsoft\CodeCoverage.Console;C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\\x64;C:\Program Files (x86)\Windows Kits\10\bin\\x64;C:\Program Files\Microsoft Visual Studio\18\Community\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\Tools\;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mrowr\bin;C:\Program Files\PowerShell\7;C:\Code\mrowr\emscripten-core\emsdk;C:\Code\mrowr\emscripten-core\emsdk\upstream\emscripten;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files\Eclipse Adoptium\jdk-25.0.1.8-hotspot\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Volta;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\PowerShell\7;C:\Program Files\Neovim\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\GnuPG\bin;C:\Program Files\xmake;C:\Program Files\GitHub CLI;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Go\bin;C:\Program Files\Microsoft SQL Server\170\Tools\Binn;C:\Code\mrowr\SkyrimScriptingBeta\Skykit\data\executables\extracted;C:\Code\mrowr\emscripten-core\emsdk;C:\Code\mrowr\emscripten-core\emsdk\upstream\emscripten;C:\Users\mrowr\AppData\Roaming\uv\python\cpython-3.12.12-windows-x86_64-none;C:\Users\mrowr\.cargo\bin;C:\Users\mrowr\scoop\shims;C:\Users\mrowr\AppData\Local\Volta\bin;C:\Users\mrowr\AppData\Local\Microsoft\WindowsApps;C:\Users\mrowr\AppData\Local\Microsoft\WinGet\Links;C:\Users\mrowr\AppData\Local\GitHubDesktop\bin;C:\Users\mrowr\.dotnet\tools;C:\Users\mrowr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mrowr\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Code\mrowr\SkyrimScriptingBeta\Skykit\build\windows\x64\release;C:\Code\mrowr\mrowrpurr\bin\bin;C:\Users\mrowr\AppData\Local\PowerToys\DSCModules;C:\Code\mrowr\mrowrpurr\puter\bin;C:\Program Files\LLVM\bin;C:\Users\mrowr\AppData\Local\Microsoft\WinGet\Packages\zarunbal.LogExpert_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\mrowr\.local\bin;C:\Users\mrowr\AppData\Local\Programs\Ollama;C:\Users\mrowr\.lmstudio\bin;C:\Users\mrowr\go\bin;D:\Dropbox\Skyrim\Tools\Pyro\5.30.2024;C:\Users\mrowr\AppData\Local\Microsoft\WinGet\Packages\KDE.ghostwriter_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\mrowr\AppData\Local\Pandoc;C:\Code\mrowr\SkyrimScriptingBeta\esp-cli\build\windows\x64\release;C:\Code\mrowr\SkyrimScriptingBeta\Skykit\v1\build\windows\x64\release;C:\Users\mrowr\.dotnet\tools;C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\Hostx64\x64;C:\qt\6.10.2\msvc2022_64\bin;C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\Llvm\x64\bin;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\18\Community\VC\vcpkg]],
+            VSCMD_ARG_app_plat = "Desktop",
+            VS180COMNTOOLS = [[C:\Program Files\Microsoft Visual Studio\18\Community\Common7\Tools\]],
+            VCIDEInstallDir = [[C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\VC\]],
+            WindowsSdkBinPath = [[C:\Program Files (x86)\Windows Kits\10\bin\]],
+            DevEnvdir = [[C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\]],
+            VCToolsVersion = "14.50.35717",
+            VCInstallDir = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\]],
+            LIB = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\lib\x64;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x64;C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\ucrt\x64;C:\Program Files (x86)\Windows Kits\10\\lib\10.0.26100.0\\um\x64]],
+            WindowsLibPath = [[C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0]],
+            UCRTVersion = "10.0.26100.0",
+            WindowsSDKVersion = "10.0.26100.0",
+            LIBPATH = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\lib\x86\store\references;C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0;C:\Windows\Microsoft.NET\Framework64\v4.0.30319]],
+            VSCMD_ARG_HOST_ARCH = "x64",
+            VisualStudioVersion = "18.0",
+            UniversalCRTSdkDir = [[C:\Program Files (x86)\Windows Kits\10\]],
+            WindowsSdkDir = [[C:\Program Files (x86)\Windows Kits\10\]],
+            VSInstallDir = [[C:\Program Files\Microsoft Visual Studio\18\Community\]],
+            VCToolsRedistDir = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Redist\MSVC\14.50.35710\]],
+            VSCMD_ARG_TGT_ARCH = "x64",
+            ExtensionSdkDir = [[C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs]],
+            INCLUDE = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include;C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um]],
+            VCToolsInstallDir = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\]]
+        },
+        arch = "x64",
+        vs = "2026",
+        vcarchs = {
+            "arm",
+            "arm64",
+            "arm64ec",
+            "x64",
+            "x86"
+        },
+        __checked = "2026",
+        plat = "windows",
+        vs_toolset = "14.50.35717",
+        __global = true
+    },
+    ["tool_target_qlementine-icons_windows_x64_cc"] = {
+        program = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe]],
+        toolname = "cl",
+        toolchain_info = {
+            arch = "x64",
+            plat = "windows",
+            name = "msvc",
+            cachekey = "msvc_arch_x64_plat_windows"
+        }
+    },
+    nim_arch_x64_plat_windows = {
+        __global = true,
+        plat = "windows",
+        __checked = false,
+        arch = "x64"
+    },
+    ["tool_target_qlementine-icons_windows_x64_ld"] = {
+        program = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\link.exe]],
+        toolname = "link",
+        toolchain_info = {
+            arch = "x64",
+            plat = "windows",
+            name = "msvc",
+            cachekey = "msvc_arch_x64_plat_windows"
+        }
+    },
+    ["tool_target_qlementine-icons_windows_x64_cxx"] = {
+        program = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe]],
+        toolname = "cl",
+        toolchain_info = {
+            arch = "x64",
+            plat = "windows",
+            name = "msvc",
+            cachekey = "msvc_arch_x64_plat_windows"
+        }
+    },
+    yasm_arch_x64_plat_windows = {
+        __global = true,
+        plat = "windows",
+        __checked = true,
+        arch = "x64"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    options = {
+        arch = "x64",
+        mode = "release",
+        plat = "windows",
+        clean = true,
+        qt = "C:/qt/6.10.2/msvc2022_64"
+    },
+    recheck = false,
+    mtimes = {
+        ["xmake.lua"] = 1774018244
+    }
+}

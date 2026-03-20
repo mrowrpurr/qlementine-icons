@@ -1,0 +1,42 @@
+{
+    find_program = {
+        nim = false,
+        ["cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe]],
+        ["C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\cl.exe"] = [[c:\program files\microsoft visual studio\18\community\vc\tools\msvc\14.50.35717\bin\hostx64\x64\cl.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolar = {
+        ["link.exe"] = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\link.exe]]
+    },
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.50.35717\\bin\\hostx64\\x64\\cl.exe__cxx_cxflags_-nologo_cl_external_includedir"] = true,
+        ["windows_x64_c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.50.35717\\bin\\hostx64\\x64\\cl.exe__cxx_cxxflags_-nologo_/Zc:__cplusplus"] = true,
+        ["windows_x64_c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.50.35717\\bin\\hostx64\\x64\\cl.exe__cxx_cxxflags_-nologo_/permissive-"] = true,
+        ["windows_x64_c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.50.35717\\bin\\hostx64\\x64\\cl.exe__cxx_cxflags_-nologo_cl_sourceDependencies"] = true
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcxx = {
+        ["cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcc = {
+        ["cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe]]
+    },
+    ["detect.sdks.find_qt"] = {
+        ["C:/qt/6.10.2/msvc2022_64"] = {
+            qt = {
+                includedir = "C:/qt/6.10.2/msvc2022_64/include",
+                mkspecsdir = [[C:\qt\6.10.2\msvc2022_64\mkspecs]],
+                bindir_host = "C:/qt/6.10.2/msvc2022_64/bin",
+                qmldir = "C:/qt/6.10.2/msvc2022_64/qml",
+                libexecdir = "C:/qt/6.10.2/msvc2022_64/bin",
+                libexecdir_host = "C:/qt/6.10.2/msvc2022_64/bin",
+                pluginsdir = "C:/qt/6.10.2/msvc2022_64/plugins",
+                libdir = "C:/qt/6.10.2/msvc2022_64/lib",
+                sdkver = "6.10.2",
+                sdkdir = "C:/qt/6.10.2/msvc2022_64",
+                bindir = "C:/qt/6.10.2/msvc2022_64/bin"
+            }
+        }
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolld = {
+        ["link.exe"] = [[C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\link.exe]]
+    }
+}
